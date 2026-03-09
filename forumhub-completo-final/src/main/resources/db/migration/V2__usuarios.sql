@@ -1,0 +1,8 @@
+
+CREATE TABLE usuarios(
+ id BIGINT AUTO_INCREMENT PRIMARY KEY,
+ login VARCHAR(100) UNIQUE,
+ senha VARCHAR(255)
+);
+
+INSERT INTO usuarios(login,senha) VALUES('admin','123456');
